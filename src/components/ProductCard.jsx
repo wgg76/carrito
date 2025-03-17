@@ -1,4 +1,3 @@
-// src/components/ProductCard.jsx
 import React, { useContext } from "react";
 import { CartContext } from "../Context/CartContext";
 import { motion } from "framer-motion";
@@ -40,7 +39,7 @@ const ProductCard = ({ product }) => {
             id: product.id,
             name: product.title,
             price: product.price,
-            image: product.image, // <-- Se añade la imagen
+            image: product.image, // <-- aca se añade la imagen
           })
         }
         className="px-4 py-4 bg-blue-700 text-white rounded hover:bg-blue-200 transition"

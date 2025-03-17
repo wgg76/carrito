@@ -1,4 +1,3 @@
-// src/App.jsx
 import React, { useContext, useState } from "react";
 import { CartProvider } from "./Context/CartContext";
 import { ThemeProvider, ThemeContext } from "./Context/ThemeContext";
@@ -33,7 +32,6 @@ const AppContent = () => {
             </div>
           </div>
         )}
-         {/* Footer al final */}
          <Footer />
       </div>
     </div>

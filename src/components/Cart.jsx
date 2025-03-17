@@ -1,4 +1,3 @@
-// src/components/Cart.jsx
 import React, { useContext } from "react";
 import { CartContext } from "../Context/CartContext";
 
@@ -19,7 +18,7 @@ const Cart = () => {
           <ul>
             {cart.map((item) => (
               <li key={item.id} className="flex justify-between items-center mb-4 p-2 border-b">
-                {/* Imagen del producto */}
+                {/* aca muestra la imagen del producto */}
                 <div className="flex items-center">
                   <img
                     src={item.image}
@@ -38,7 +37,7 @@ const Cart = () => {
                   </span>
                 </div>
 
-                {/* Botón Eliminar */}
+                {/* este es el botón Eliminar */}
                 <button
                   onClick={() => removeFromCart(item.id)}
                   className="px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600"
